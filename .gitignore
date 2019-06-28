@@ -1,0 +1,4 @@
+.ipynb_checkpoints/
+dask-worker-space/
+slurm*.out
+log.lammps
