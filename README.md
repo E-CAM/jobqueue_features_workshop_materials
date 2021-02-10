@@ -1,21 +1,21 @@
-# Workshop materials for a 3h course on `jobqueue_features`
+# Workshop materials for a 2h course on `jobqueue_features`
 
 `jobqueue_features`: <https://github.com/E-CAM/jobqueue_features>
 
 
 ## Topics covered in the course
 
-- brief overview of the use case of `jobqueue_features` 
-- forking MPI processes as part of a dask task
-- MPI-aware dask tasks
+- brief overview of the use case for `jobqueue_features`
+- introduction to some basic features
+- forking MPI processes as part of a Dask task
+- MPI-aware Dask tasks
 - cases with complex software environments
+- managing multiple clusters
 
 ## Setup and Requirements
 
-This workshop is intended to be used on the [JURECA supercomputer](http://www.fz-juelich.de/ias/jsc/EN/Expertise/Supercomputers/JURECA/UserInfo/QuickIntroduction.html).
-The workshop attendees have access to the following installation script for the workshop:
-```bash
-/p/project/cecam/jobqueue_jupyter_venv/install_kernel.sh
-```
-This will allow you to access the full workshop software environment from a Jupyter notebook when logged in at
-<https://jupyter-jsc.fz-juelich.de>
+This workshop is intended to be used on with the
+[tutorial setup from the `jobqueue_features`](https://github.com/E-CAM/jobqueue_features#tutorial-configuration).
+Detailed instructions are available via the [link](https://github.com/E-CAM/jobqueue_features#tutorial-configuration)
+and the notebooks from this tutorial will be automatically included as part of the environment that results from that
+setup procedure.
